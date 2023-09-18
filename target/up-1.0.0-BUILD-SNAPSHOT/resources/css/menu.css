@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: Uljiro;
+    src: url("../font/BMEULJIROTTF.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin : 0 auto;
+    padding: 0;
+}
+
+a { text-decoration: none; color: #212121 }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+#menu {
+    margin: 10px;
+}
+
+#menu > .menu-container {
+    margin: 0;
+    list-style-type: none;
+    height: 65px;
+    width: 400px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu > .menu-container > li {
+    color: lightgray;
+    height : 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#menu > .menu-container > li > a {
+    color: #4d5159;
+    margin:auto;
+    padding: 10px;
+    font-family: "Uljiro";
+    font-size:20px;
+    align-items: center;
+}
+
+#menu > .menu-container > li > a:hover {
+    color :darkgoldenrod;
+    border-bottom: 3px solid rgb(209, 209, 209);
+}
+
+#logo {
+    margin: 0 0 0 400px;
+    display: flex;
+    width: 300px;
+    height: 65px;
+    float: left;
+}
+
+.logo-image {
+    width: 148px;
+    height: 65px;
+    background: url("../img/ThumbsUpLogo2.png");
+    background-size: contain;
+    float: left;
+}

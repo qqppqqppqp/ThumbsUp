@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: Uljiro;
+    src: url("../font/BMEULJIROTTF.ttf");
+}
+
+* { box-sizing:border-box; }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+form {
+    width:400px;
+    height:500px;
+    display : flex;
+    flex-direction: column;
+    align-items:center;
+    position : absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) ;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: Uljiro;
+}
+input[type='text'], input[type='password'] {
+    width: 300px;
+    height: 40px;
+    border : 1px solid #ddd;
+    border-radius:5px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #000;
+    color : #ddd;
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    border : none;
+    border-radius: 5px;
+    margin : 20px 0 30px 0;
+    font-family: Uljiro;
+}
+#title {
+    font-size : 50px;
+    margin: 40px 0 30px 0;
+    color: #000;
+    font-family: Uljiro;
+}
+#msg {
+    height: 30px;
+    text-align:center;
+    font-size:16px;
+    color:red;
+    margin-bottom: 20px;
+    font-family: Uljiro;
+}
+
+#label-container {
+    color: #727272;
+}

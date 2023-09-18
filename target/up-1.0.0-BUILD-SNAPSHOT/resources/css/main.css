@@ -1,0 +1,119 @@
+
+@font-face {
+    font-family: Hanna;
+    src: url("../font/BMHANNAPro.ttf");
+}
+
+#cover-container {
+    background-color: #FFF1AA;
+    width: 1797px;
+    height: 315px;
+    padding: 0 16px 0 16px;
+}
+
+#cover-content {
+    width: 768px;
+    height: 315px;
+}
+
+#cover-image {
+    background: url("../img/fleamarket-39d1db152a4769a6071f587fa9320b254085d726a06f61d544728b9ab3bd940a.png");
+    background-size: cover;
+    width: 416px;
+    height: 315px;
+    opacity: 1;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: flex;
+    float: right;
+}
+
+#cover-title {
+    /*font-family: Hanna;*/
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 1.5;
+    padding-top: 50px;
+}
+
+#cover-description {
+    /*font-family: Hanna;*/
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 16px;
+    display: block;
+    line-height: 1.32;
+}
+
+#main-title {
+    /*font-family: Hanna;*/
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+#main-container {
+    width: 757px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    /*background-color: #2DB400;*/
+}
+
+.card-top {
+    display: block;
+    width: 223px;
+    height: 330px;
+    font-family: Uljiro;
+}
+
+.card-link {
+
+}
+
+.card-photo {
+    width: 223px;
+    height: 223px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    /*background-color: black;*/
+}
+
+.card-desc {
+    width: 223px;
+    height: 95px;
+    color: #212529;
+    /*background-color: #4d5159;*/
+}
+
+.card-title {
+    width: 223px;
+    height: 28px;
+    font-size: 17px;
+    margin-top: 20px;
+    /*background-color: darkgoldenrod;*/
+}
+
+.card-price {
+    width: 223px;
+    height: 23px;
+    font-size: 16px;
+    /*background-color: lightblue;*/
+}
+
+.card-count {
+    width: 223px;
+    height: 17px;
+    color: #868e96;
+    font-size: 13px;
+    /*background-color: pink;*/
+
+}
